@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "echo 'tttptiii.com' > ./build/CNAME && gh-pages -d build"
+    "deploy": "echo 'tttptiii.com' > ./build/CNAME && cp build/index.html build/404.html && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
