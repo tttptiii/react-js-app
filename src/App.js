@@ -9,7 +9,7 @@ import { Side } from "./components/Side";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Side></Side>
         <Routes>
           <Route path="/about" exact component={App} />
