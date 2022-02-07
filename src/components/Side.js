@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/side.css";
+import "../assets/styles/side.css";
 import { Link, useLocation } from "react-router-dom";
 
 import { Title, SideItem, Copyright } from "./SideItem";
