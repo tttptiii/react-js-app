@@ -24,7 +24,7 @@ export const Copyright = function () {
   return (
     <div className="menu-copyright">
       <p>
-        © 2015-2022. Han Young<br />
+        © 2014-2022. Han Young<br />
         All contents cannot be copied without permission.
       </p>
     </div>
