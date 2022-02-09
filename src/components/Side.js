@@ -7,9 +7,29 @@ import { Title, SideItem, Copyright } from "./SideItem";
 export const Side = function () {
   const pathName = useLocation().pathname;
   const menus = [
-    { name: "about", path: "/about" },
-    { name: "tab-a", path: "/a" },
-    { name: "tab-b", path: "/b" }
+    { name: "about", isPage: 1, path: "/about" },
+    { isSpacer: 1 },
+    { name: "::2014", isPage: 0 },
+    { name: "color wheel", isPage: 1, path: "/2014/color-wheel" },
+    { name: "Lux Aeterna (MV)", isPage: 1, path: "/2014/lux-aeterna-mv" },
+    { name: "rainy cube", isPage: 1, path: "/2014/rainy-cube" },
+    { isSpacer: 1 },
+    { name: "::2015", isPage: 0 },
+    { isSpacer: 1 },
+    { name: "::2016", isPage: 0 },
+    { isSpacer: 1 },
+    { name: "::2017", isPage: 0 },
+    { isSpacer: 1 },
+    { name: "::2018", isPage: 0 },
+    { isSpacer: 1 },
+    { name: "::2019", isPage: 0 },
+    { isSpacer: 1 },
+    { name: "::2020", isPage: 0 },
+    { isSpacer: 1 },
+    { name: "::2021", isPage: 0 },
+    { isSpacer: 1 },
+    { name: "::2022", isPage: 0 },
+
   ];
   return (
     <div className="sidebar">
@@ -18,12 +38,22 @@ export const Side = function () {
       </Link>
       {menus.map((menu, index) => {
         return (
-          <Link to={menu.path} key={index}>
-            <SideItem
-              menu={menu}
-              isActive={pathName === menu.path ? true : false}
-            />
-          </Link>
+          menu.isSpacer ? (
+            <div className="spacer"><p><br/></p></div>
+          ) : (
+            menu.isPage ? (
+              <Link to={menu.path} key={index}>
+                <SideItem
+                  menu={menu}
+                  isActive={pathName === menu.path ? true : false}
+                />
+              </Link>)
+              : (
+                <SideItem
+                  menu={menu}
+                />
+              )
+          )
         );
       })}
       <Copyright></Copyright>
