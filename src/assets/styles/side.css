@@ -13,6 +13,11 @@
   text-align: left;
 }
 
+.spacer {
+  font-size: 1px;
+  line-height: 1px;
+}
+
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
@@ -29,11 +34,13 @@ a:hover, a:visited, a:link, a:active
   color: black;
   font-weight: bold;
   font-size: 15px;
+  line-height: 10px;
 }
 
 .menu-common {
   color: black;
   font-size: 15px;
+  line-height: 10px;
 }
 
 .menu-copyright {
