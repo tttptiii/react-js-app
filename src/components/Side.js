@@ -21,6 +21,8 @@ export const Side = function () {
     { name: "explosion", isPage: 1, path: "/2015/explosion" },
     { isSpacer: 1 },
     { name: "::2016", isPage: 0 },
+    { name: "objects", isPage: 1, path: "/2016/objects" },
+    { name: "city", isPage: 1, path: "/2016/city" },
     { isSpacer: 1 },
     { name: "::2017", isPage: 0 },
     { isSpacer: 1 },
