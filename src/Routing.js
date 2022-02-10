@@ -8,6 +8,11 @@ import Dashboard from "./pages/test";
 import ColorWheel from "./pages/2014/ColorWheel";
 import LuxAeterna from "./pages/2014/LuxAeterna";
 import RainyCube from "./pages/2014/RainyCube";
+// 2015
+import Bubbles from "./pages/2015/Bubbles";
+import Wave from "./pages/2015/Wave";
+import PCA from "./pages/2015/PCA";
+import Explosion from "./pages/2015/Explosion";
 
 import "./assets/styles/App.css";
 
@@ -23,6 +28,12 @@ function Routing() {
             <Route path="color-wheel" element={<ColorWheel />} />
             <Route path="lux-aeterna-mv" element={<LuxAeterna />} />
             <Route path="rainy-cube" element={<RainyCube />} />
+          </Route>
+          <Route path="2015">
+            <Route path="bubbles" element={<Bubbles />} />
+            <Route path="wave" element={<Wave />} />
+            <Route path="probabilistic-cellular-automata" element={<PCA />} />
+            <Route path="explosion" element={<Explosion />} />
           </Route>
           <Route path="/*" element={<WIP />} />
         </Routes>
