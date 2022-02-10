@@ -30,6 +30,8 @@ export const Side = function () {
     { name: "airy cube", isPage: 1, path: "/2017/airy-cube" },
     { isSpacer: 1 },
     { name: "::2018", isPage: 0 },
+    { name: "spaces", isPage: 1, path: "/2018/spaces" },
+    { name: "sound", isPage: 1, path: "/2018/sound" },
     { isSpacer: 1 },
     { name: "::2019", isPage: 0 },
     { isSpacer: 1 },

@@ -16,10 +16,13 @@ import Explosion from "./pages/2015/Explosion";
 // 2016
 import City from "./pages/2016/City";
 import {default as Objects2016} from "./pages/2016/Objects";
-// 2016
+// 2017
 import Howler from "./pages/2017/Howler";
 import {default as Objects2017} from "./pages/2017/Objects";
 import AiryCube from "./pages/2017/AiryCube";
+// 2018
+import {default as Spaces2018} from "./pages/2018/Spaces";
+import {default as Sound2018} from "./pages/2018/Sound";
 
 import "./assets/styles/App.css";
 
@@ -50,6 +53,10 @@ function Routing() {
             <Route path="howler" element={<Howler />} />
             <Route path="objects" element={<Objects2017 />} />
             <Route path="airy-cube" element={<AiryCube />} />
+          </Route>
+          <Route path="2018">
+            <Route path="spaces" element={<Spaces2018 />} />
+            <Route path="sound" element={<Sound2018 />} />
           </Route>
           <Route path="/*" element={<WIP />} />
         </Routes>
