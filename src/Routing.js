@@ -14,8 +14,12 @@ import Wave from "./pages/2015/Wave";
 import PCA from "./pages/2015/PCA";
 import Explosion from "./pages/2015/Explosion";
 // 2016
-import City from "./pages/2016/city";
-import {default as Objects2016} from "./pages/2016/objects";
+import City from "./pages/2016/City";
+import {default as Objects2016} from "./pages/2016/Objects";
+// 2016
+import Howler from "./pages/2017/Howler";
+import {default as Objects2017} from "./pages/2017/Objects";
+import AiryCube from "./pages/2017/AiryCube";
 
 import "./assets/styles/App.css";
 
@@ -41,6 +45,11 @@ function Routing() {
           <Route path="2016">
             <Route path="objects" element={<Objects2016 />} />
             <Route path="city" element={<City />} />
+          </Route>
+          <Route path="2017">
+            <Route path="howler" element={<Howler />} />
+            <Route path="objects" element={<Objects2017 />} />
+            <Route path="airy-cube" element={<AiryCube />} />
           </Route>
           <Route path="/*" element={<WIP />} />
         </Routes>
