@@ -5,7 +5,6 @@ import img3 from '../../assets/images/2014/rainy-cube/3.jpg';
 import '../../assets/styles/images.css';
 
 function RainyCube(props) {
-  console.log("Dashboard props", props);
   return (
     <div className="App">
       <img src={img1} className="image-style-1" alt="1" />
