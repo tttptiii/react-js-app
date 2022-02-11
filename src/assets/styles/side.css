@@ -11,6 +11,17 @@
   font-family: Arial, Verdana, sans-serif;
   line-height: 20px;
   text-align: left;
+  overflow-y: scroll;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 2px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+}
+.sidebar::-webkit-scrollbar-track {
+  background-color: lightgrey;
 }
 
 .spacer {
