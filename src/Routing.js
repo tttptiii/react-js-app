@@ -23,6 +23,11 @@ import AiryCube from "./pages/2017/AiryCube";
 // 2018
 import {default as Spaces2018} from "./pages/2018/Spaces";
 import {default as Sound2018} from "./pages/2018/Sound";
+// 2019
+import {default as Spaces2019} from "./pages/2019/Spaces";
+import {default as Sound2019} from "./pages/2019/Sound";
+import {default as SoundRecorded2019} from "./pages/2019/SoundRecorded";
+import {default as SoundPlayed2019} from "./pages/2019/SoundPlayed";
 
 import "./assets/styles/App.css";
 
@@ -57,6 +62,12 @@ function Routing() {
           <Route path="2018">
             <Route path="spaces" element={<Spaces2018 />} />
             <Route path="sound" element={<Sound2018 />} />
+          </Route>
+          <Route path="2019">
+            <Route path="spaces" element={<Spaces2019 />} />
+            <Route path="sound" element={<Sound2019 />} />
+            <Route path="sound-recorded" element={<SoundRecorded2019 />} />
+            <Route path="sound-played" element={<SoundPlayed2019 />} />
           </Route>
           <Route path="/*" element={<WIP />} />
         </Routes>
