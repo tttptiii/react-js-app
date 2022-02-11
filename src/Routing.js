@@ -28,6 +28,8 @@ import {default as Spaces2019} from "./pages/2019/Spaces";
 import {default as Sound2019} from "./pages/2019/Sound";
 import {default as SoundRecorded2019} from "./pages/2019/SoundRecorded";
 import {default as SoundPlayed2019} from "./pages/2019/SoundPlayed";
+//2020
+import Wandering from "./pages/2020/Wandering";
 
 import "./assets/styles/App.css";
 
@@ -68,6 +70,9 @@ function Routing() {
             <Route path="sound" element={<Sound2019 />} />
             <Route path="sound-recorded" element={<SoundRecorded2019 />} />
             <Route path="sound-played" element={<SoundPlayed2019 />} />
+          </Route>
+          <Route path="2020">
+            <Route path="wandering" element={<Wandering />} />
           </Route>
           <Route path="/*" element={<WIP />} />
         </Routes>
