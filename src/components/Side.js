@@ -40,6 +40,7 @@ export const Side = function () {
     { name: "sound played", isPage: 1, path: "/2019/sound-played" },
     { isSpacer: 1 },
     { name: "::2020", isPage: 0 },
+    { name: "wandering", isPage: 1, path: "/2020/wandering" },
     { isSpacer: 1 },
     { name: "::2021", isPage: 0 },
     { isSpacer: 1 },
