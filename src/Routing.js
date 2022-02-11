@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Side } from "./components/Side";
 
 import WIP from "./pages/WIP";
-import Dashboard from "./pages/test";
+import About from "./pages/About";
 // 2014
 import ColorWheel from "./pages/2014/ColorWheel";
 import LuxAeterna from "./pages/2014/LuxAeterna";
@@ -15,32 +15,55 @@ import PCA from "./pages/2015/PCA";
 import Explosion from "./pages/2015/Explosion";
 // 2016
 import City from "./pages/2016/City";
-import {default as Objects2016} from "./pages/2016/Objects";
+import { default as Objects2016 } from "./pages/2016/Objects";
 // 2017
 import Howler from "./pages/2017/Howler";
-import {default as Objects2017} from "./pages/2017/Objects";
+import { default as Objects2017 } from "./pages/2017/Objects";
 import AiryCube from "./pages/2017/AiryCube";
 // 2018
-import {default as Spaces2018} from "./pages/2018/Spaces";
-import {default as Sound2018} from "./pages/2018/Sound";
+import { default as Spaces2018 } from "./pages/2018/Spaces";
+import { default as Sound2018 } from "./pages/2018/Sound";
 // 2019
-import {default as Spaces2019} from "./pages/2019/Spaces";
-import {default as Sound2019} from "./pages/2019/Sound";
-import {default as SoundRecorded2019} from "./pages/2019/SoundRecorded";
-import {default as SoundPlayed2019} from "./pages/2019/SoundPlayed";
+import { default as Spaces2019 } from "./pages/2019/Spaces";
+import { default as Sound2019 } from "./pages/2019/Sound";
+import { default as SoundRecorded2019 } from "./pages/2019/SoundRecorded";
+import { default as SoundPlayed2019 } from "./pages/2019/SoundPlayed";
 //2020
 import Wandering from "./pages/2020/Wandering";
 
 import "./assets/styles/App.css";
 
 function Routing() {
+  const randomList = [
+    ColorWheel,
+    LuxAeterna,
+    RainyCube,
+    Bubbles,
+    Wave,
+    PCA,
+    Explosion,
+    City,
+    Objects2016,
+    Howler,
+    Objects2017,
+    AiryCube,
+    Spaces2018,
+    Sound2018,
+    Spaces2019,
+    Sound2019,
+    SoundRecorded2019,
+    SoundPlayed2019,
+    Wandering,
+  ]
+  const ThisPattern = randomList[Math.floor(Math.random() * randomList.length)];
+  console.log(ThisPattern)
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Side></Side>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/about" element={<WIP />} />
+          <Route path="/" element={<ThisPattern />} />
+          <Route path="/about" element={<About />} />
           <Route path="2014">
             <Route path="color-wheel" element={<ColorWheel />} />
             <Route path="lux-aeterna-mv" element={<LuxAeterna />} />

@@ -43,6 +43,7 @@ export const Side = function () {
     { name: "wandering", isPage: 1, path: "/2020/wandering" },
     { isSpacer: 1 },
     { name: "::2021", isPage: 0 },
+    { name: "-", isPage: 0 },
     { isSpacer: 1 },
     { name: "::2022", isPage: 0 },
 
@@ -55,7 +56,7 @@ export const Side = function () {
       {menus.map((menu, index) => {
         return (
           menu.isSpacer ? (
-            <div className="spacer"><p><br/></p></div>
+            <div className="spacer"><p><br /></p></div>
           ) : (
             menu.isPage ? (
               <Link to={menu.path} key={index}>
@@ -73,6 +74,7 @@ export const Side = function () {
         );
       })}
       <Copyright></Copyright>
+      <br />
     </div>
   );
 }
