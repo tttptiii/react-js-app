@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Side } from "./components/Side";
 
 import WIP from "./pages/WIP";
+import About from "./pages/About";
 // 2014
 import ColorWheel from "./pages/2014/ColorWheel";
 import LuxAeterna from "./pages/2014/LuxAeterna";
@@ -62,7 +63,7 @@ function Routing() {
         <Side></Side>
         <Routes>
           <Route path="/" element={<ThisPattern />} />
-          <Route path="/about" element={<WIP />} />
+          <Route path="/about" element={<About />} />
           <Route path="2014">
             <Route path="color-wheel" element={<ColorWheel />} />
             <Route path="lux-aeterna-mv" element={<LuxAeterna />} />
