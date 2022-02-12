@@ -12,8 +12,8 @@ function RainyCube(props) {
       <img src={img3} className="image-style-1" alt="3" />
       <p><strong><em>rainy cube</em></strong><br />
         2014<br />
-        polypropylene sheet, blue cellophane sheet, mp3 player, earphone<br />
-        60cm x 60cm x 60cm</p>
+        polypropylene panel, blue cellophane film, mp3 player, earphone<br />
+        45cm x 45cm x 45cm</p>
     </div>
   );
 }
