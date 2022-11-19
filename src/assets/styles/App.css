@@ -4,6 +4,13 @@
   margin-top: 50px;
 }
 
+.Md {
+  text-align: left;
+  margin-left: 135px;
+  margin-top: 50px;
+  width: 1100px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

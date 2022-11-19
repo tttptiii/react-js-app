@@ -46,6 +46,7 @@ export const Side = function () {
     { name: "-", isPage: 0 },
     { isSpacer: 1 },
     { name: "::2022", isPage: 0 },
+    { name: "parts", isPage: 1, path: "/2022/parts" },
 
   ];
   return (
