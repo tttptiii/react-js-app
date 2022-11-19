@@ -17,6 +17,12 @@ function Parts(props) {
   return (
     <div className="Md">
       <ReactMarkdown remarkPlugins={[remarkGfm]} children={content} />
+      <p>
+        <br />
+        <hr />
+        <br />
+        content copied from <a href="https://github.com/tttptiii/parts" target="_blank">"parts, README.md"</a>
+      </p>
     </div>
   );
 }
