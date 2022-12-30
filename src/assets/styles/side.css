@@ -42,16 +42,20 @@ a:hover, a:visited, a:link, a:active
 }
 
 .menu-active {
+  padding-top: 0px;
   color: black;
   font-weight: bold;
   font-size: 15px;
-  line-height: 10px;
+  line-height: 15px;
+  margin-bottom: -5px;
 }
 
 .menu-common {
+  padding-top: 0px;
   color: black;
   font-size: 15px;
-  line-height: 10px;
+  line-height: 15px;
+  margin-bottom: -5px;
 }
 
 .menu-copyright {

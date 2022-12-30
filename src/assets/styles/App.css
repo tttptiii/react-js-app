@@ -45,3 +45,8 @@
     transform: rotate(360deg);
   }
 }
+
+mark {
+  background: lightgrey!important;
+  color: crimson;
+}
