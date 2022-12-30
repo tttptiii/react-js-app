@@ -47,6 +47,7 @@ export const Side = function () {
     { isSpacer: 1 },
     { name: "::2022", isPage: 0 },
     { name: "parts", isPage: 1, path: "/2022/parts" },
+    { name: "Object Oriented: Domino Study", isPage: 1, path: "/2022/domino-study" },
 
   ];
   return (
