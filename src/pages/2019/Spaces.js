@@ -1,9 +1,9 @@
-import img10 from '../../assets/images/2019/spaces/10.png';
-import img11 from '../../assets/images/2019/spaces/11.png';
-import img12 from '../../assets/images/2019/spaces/12.png';
-import img13 from '../../assets/images/2019/spaces/13.jpg';
-import img14 from '../../assets/images/2019/spaces/14.png';
-import img15 from '../../assets/images/2019/spaces/15.png';
+import img10 from "../../assets/images/2019/spaces/10.png";
+import img11 from "../../assets/images/2019/spaces/11.png";
+import img12 from "../../assets/images/2019/spaces/12.png";
+import img13 from "../../assets/images/2019/spaces/13.jpg";
+import img14 from "../../assets/images/2019/spaces/14.png";
+import img15 from "../../assets/images/2019/spaces/15.png";
 
 function Spaces(props) {
   return (

@@ -47,8 +47,11 @@ export const Side = function () {
     { isSpacer: 1 },
     { name: "::2022", isPage: 0 },
     { name: "parts", isPage: 1, path: "/2022/parts" },
-    { name: "Object Oriented: Domino Study", isPage: 1, path: "/2022/domino-study" },
-
+    {
+      name: "Object Oriented: Domino Study",
+      isPage: 1,
+      path: "/2022/domino-study",
+    },
   ];
   return (
     <div className="sidebar">
@@ -56,27 +59,25 @@ export const Side = function () {
         <Title titleString="ttt.pt.iii"></Title>
       </Link>
       {menus.map((menu, index) => {
-        return (
-          menu.isSpacer ? (
-            <div className="spacer"><p><br /></p></div>
-          ) : (
-            menu.isPage ? (
-              <Link to={menu.path} key={index}>
-                <SideItem
-                  menu={menu}
-                  isActive={pathName === menu.path ? true : false}
-                />
-              </Link>)
-              : (
-                <SideItem
-                  menu={menu}
-                />
-              )
-          )
+        return menu.isSpacer ? (
+          <div className="spacer">
+            <p>
+              <br />
+            </p>
+          </div>
+        ) : menu.isPage ? (
+          <Link to={menu.path} key={index}>
+            <SideItem
+              menu={menu}
+              isActive={pathName === menu.path ? true : false}
+            />
+          </Link>
+        ) : (
+          <SideItem menu={menu} />
         );
       })}
       <Copyright></Copyright>
       <br />
     </div>
   );
-}
+};

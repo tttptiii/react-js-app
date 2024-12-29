@@ -1,12 +1,12 @@
-import img1 from '../../assets/images/2018/spaces/1.png';
-import img2 from '../../assets/images/2018/spaces/2.png';
-import img3 from '../../assets/images/2018/spaces/3.png';
-import img4 from '../../assets/images/2018/spaces/4.png';
-import img5 from '../../assets/images/2018/spaces/5.png';
-import img6 from '../../assets/images/2018/spaces/6.png';
-import img7 from '../../assets/images/2018/spaces/7.png';
-import img8 from '../../assets/images/2018/spaces/8.png';
-import img9 from '../../assets/images/2018/spaces/9.png';
+import img1 from "../../assets/images/2018/spaces/1.png";
+import img2 from "../../assets/images/2018/spaces/2.png";
+import img3 from "../../assets/images/2018/spaces/3.png";
+import img4 from "../../assets/images/2018/spaces/4.png";
+import img5 from "../../assets/images/2018/spaces/5.png";
+import img6 from "../../assets/images/2018/spaces/6.png";
+import img7 from "../../assets/images/2018/spaces/7.png";
+import img8 from "../../assets/images/2018/spaces/8.png";
+import img9 from "../../assets/images/2018/spaces/9.png";
 
 function Spaces(props) {
   return (

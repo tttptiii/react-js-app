@@ -6,7 +6,7 @@ export const Title = function ({ titleString }) {
       <p>{titleString}</p>
     </div>
   );
-}
+};
 
 export const SideItem = function ({ menu, isActive }) {
   return isActive === true ? (
@@ -18,15 +18,16 @@ export const SideItem = function ({ menu, isActive }) {
       <p>{menu.name}</p>
     </div>
   );
-}
+};
 
 export const Copyright = function () {
   return (
     <div className="menu-copyright">
       <p>
-        © 2014-{new Date().getFullYear()}. Han Young<br />
+        © 2014-{new Date().getFullYear()}. Han Young
+        <br />
         All contents cannot be copied without permission.
       </p>
     </div>
   );
-}
+};

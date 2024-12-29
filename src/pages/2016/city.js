@@ -1,7 +1,7 @@
-import img1 from '../../assets/images/2016/city/1.png';
-import img2 from '../../assets/images/2016/city/2.jpg';
-import img3 from '../../assets/images/2016/city/3.jpg';
-import img4 from '../../assets/images/2016/city/4.jpg';
+import img1 from "../../assets/images/2016/city/1.png";
+import img2 from "../../assets/images/2016/city/2.jpg";
+import img3 from "../../assets/images/2016/city/3.jpg";
+import img4 from "../../assets/images/2016/city/4.jpg";
 
 function City(props) {
   return (

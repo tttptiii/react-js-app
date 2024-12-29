@@ -59,9 +59,9 @@ function Routing() {
     Wandering,
     Parts,
     DominoStudy,
-  ]
+  ];
   const ThisPattern = randomList[Math.floor(Math.random() * randomList.length)];
-  console.log(ThisPattern)
+  console.log(ThisPattern);
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
@@ -112,8 +112,7 @@ function Routing() {
         </Routes>
       </div>
     </BrowserRouter>
-
-  )
+  );
 }
 
 export default Routing;

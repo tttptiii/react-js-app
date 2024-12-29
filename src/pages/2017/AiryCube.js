@@ -1,19 +1,19 @@
-import img1 from '../../assets/images/2017/airy-cube/1.jpg';
-import img2 from '../../assets/images/2017/airy-cube/2.jpg';
-import img3 from '../../assets/images/2017/airy-cube/3.jpg';
-import img4 from '../../assets/images/2017/airy-cube/4.jpg';
-import img5 from '../../assets/images/2017/airy-cube/5.jpg';
-import img6 from '../../assets/images/2017/airy-cube/6.jpg';
-import img7 from '../../assets/images/2017/airy-cube/7.jpg';
-import img8 from '../../assets/images/2017/airy-cube/8.jpg';
-import img9 from '../../assets/images/2017/airy-cube/9.jpg';
-import img10 from '../../assets/images/2017/airy-cube/10.jpg';
-import img11 from '../../assets/images/2017/airy-cube/11.jpg';
-import img12 from '../../assets/images/2017/airy-cube/12.jpg';
-import img13 from '../../assets/images/2017/airy-cube/13.jpg';
-import img14 from '../../assets/images/2017/airy-cube/14.jpg';
-import img15 from '../../assets/images/2017/airy-cube/15.jpg';
-import img16 from '../../assets/images/2017/airy-cube/16.jpg';
+import img1 from "../../assets/images/2017/airy-cube/1.jpg";
+import img2 from "../../assets/images/2017/airy-cube/2.jpg";
+import img3 from "../../assets/images/2017/airy-cube/3.jpg";
+import img4 from "../../assets/images/2017/airy-cube/4.jpg";
+import img5 from "../../assets/images/2017/airy-cube/5.jpg";
+import img6 from "../../assets/images/2017/airy-cube/6.jpg";
+import img7 from "../../assets/images/2017/airy-cube/7.jpg";
+import img8 from "../../assets/images/2017/airy-cube/8.jpg";
+import img9 from "../../assets/images/2017/airy-cube/9.jpg";
+import img10 from "../../assets/images/2017/airy-cube/10.jpg";
+import img11 from "../../assets/images/2017/airy-cube/11.jpg";
+import img12 from "../../assets/images/2017/airy-cube/12.jpg";
+import img13 from "../../assets/images/2017/airy-cube/13.jpg";
+import img14 from "../../assets/images/2017/airy-cube/14.jpg";
+import img15 from "../../assets/images/2017/airy-cube/15.jpg";
+import img16 from "../../assets/images/2017/airy-cube/16.jpg";
 function AiryCube(props) {
   return (
     <div className="App">
@@ -33,10 +33,17 @@ function AiryCube(props) {
       <img src={img14} className="image-style-1" alt="14" />
       <img src={img15} className="image-style-1" alt="15" />
       <img src={img16} className="image-style-1" alt="16" />
-      <p><strong><em>airy cube</em></strong><br />
-        2017<br />
-        plastic film, hot air<br />
-        90cm x 90cm x 90cm</p>
+      <p>
+        <strong>
+          <em>airy cube</em>
+        </strong>
+        <br />
+        2017
+        <br />
+        plastic film, hot air
+        <br />
+        90cm x 90cm x 90cm
+      </p>
     </div>
   );
 }

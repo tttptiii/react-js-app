@@ -1,19 +1,18 @@
-import img9 from '../../assets/images/2017/objects/9.png';
-import img10 from '../../assets/images/2017/objects/10.png';
-import img11 from '../../assets/images/2017/objects/11.png';
-import img12 from '../../assets/images/2017/objects/12.png';
-import img13 from '../../assets/images/2017/objects/13.png';
-import img14 from '../../assets/images/2017/objects/14.png';
-import img15 from '../../assets/images/2017/objects/15.png';
-import img16 from '../../assets/images/2017/objects/16.png';
-import img17 from '../../assets/images/2017/objects/17.png';
-import img18 from '../../assets/images/2017/objects/18.png';
-import img19 from '../../assets/images/2017/objects/19.png';
-import img20 from '../../assets/images/2017/objects/20.png';
-import img21 from '../../assets/images/2017/objects/21.png';
-import img22 from '../../assets/images/2017/objects/22.png';
-import img23 from '../../assets/images/2017/objects/23.png';
-
+import img9 from "../../assets/images/2017/objects/9.png";
+import img10 from "../../assets/images/2017/objects/10.png";
+import img11 from "../../assets/images/2017/objects/11.png";
+import img12 from "../../assets/images/2017/objects/12.png";
+import img13 from "../../assets/images/2017/objects/13.png";
+import img14 from "../../assets/images/2017/objects/14.png";
+import img15 from "../../assets/images/2017/objects/15.png";
+import img16 from "../../assets/images/2017/objects/16.png";
+import img17 from "../../assets/images/2017/objects/17.png";
+import img18 from "../../assets/images/2017/objects/18.png";
+import img19 from "../../assets/images/2017/objects/19.png";
+import img20 from "../../assets/images/2017/objects/20.png";
+import img21 from "../../assets/images/2017/objects/21.png";
+import img22 from "../../assets/images/2017/objects/22.png";
+import img23 from "../../assets/images/2017/objects/23.png";
 
 function Objects(props) {
   return (

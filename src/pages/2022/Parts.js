@@ -1,17 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
+import React, { useState, useEffect } from "react";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
-import '../../assets/styles/images.css';
+import "../../assets/styles/images.css";
 
 function Parts(props) {
-  const [content, setContent] = useState('');
+  const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/tttptiii/parts/main/README.md')
-      .then(res => res.text())
-      .then(res => setContent(res))
-      .catch(err => console.log(err));
+    fetch("https://raw.githubusercontent.com/tttptiii/parts/main/README.md")
+      .then((res) => res.text())
+      .then((res) => setContent(res))
+      .catch((err) => console.log(err));
   });
 
   return (
@@ -21,7 +21,10 @@ function Parts(props) {
         <br />
         <hr />
         <br />
-        content copied from <a href="https://github.com/tttptiii/parts" target="_blank">"parts, README.md"</a>
+        content copied from{" "}
+        <a href="https://github.com/tttptiii/parts" target="_blank">
+          "parts, README.md"
+        </a>
       </p>
     </div>
   );
