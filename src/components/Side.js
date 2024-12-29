@@ -52,6 +52,16 @@ export const Side = function () {
       isPage: 1,
       path: "/2022/domino-study",
     },
+    { isSpacer: 1 },
+    { name: "::2023", isPage: 0 },
+    { name: "-", isPage: 0 },
+    { isSpacer: 1 },
+    { name: "::2024", isPage: 0 },
+    {
+      name: "Designing Sound (w/ SuperCollider)",
+      isPage: 1,
+      path: "/2024/designing-sound",
+    },
   ];
   return (
     <div className="sidebar">

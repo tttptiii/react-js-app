@@ -35,6 +35,7 @@ import Parts from "./pages/2022/Parts";
 import DominoStudy from "./pages/2022/DominoStudy";
 
 import "./assets/styles/App.css";
+import DesigningSound from "./pages/2024/DesigningSound";
 
 function Routing() {
   const randomList = [
@@ -59,6 +60,7 @@ function Routing() {
     Wandering,
     Parts,
     DominoStudy,
+    DesigningSound,
   ];
   const ThisPattern = randomList[Math.floor(Math.random() * randomList.length)];
   console.log(ThisPattern);
@@ -107,6 +109,9 @@ function Routing() {
           </Route>
           <Route path="2022">
             <Route path="domino-study" element={<DominoStudy />} />
+          </Route>
+          <Route path="2024">
+            <Route path="designing-sound" element={<DesigningSound />} />
           </Route>
           <Route path="/*" element={<WIP />} />
         </Routes>
